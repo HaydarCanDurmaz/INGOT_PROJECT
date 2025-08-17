@@ -16,9 +16,9 @@ public class _01_LoginSteps {
         GWD.getDriver().get("https://www.ingot.io/SC/en-SC");
     }
 
-    @When("Enter the Login Button")
+    @When("Enter the Login Click")
     public void enterTheLoginButton() {
-        dc.myClick(dc.LoginButton);
+        dc.myClick(dc.LoginClick);
 
 
     }
