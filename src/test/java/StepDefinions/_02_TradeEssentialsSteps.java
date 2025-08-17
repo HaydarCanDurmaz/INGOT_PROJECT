@@ -3,7 +3,7 @@ package StepDefinions;
 import Pages.DialogContent;
 import io.cucumber.java.en.When;
 
-public class TradeEssentialsSteps {
+public class _02_TradeEssentialsSteps {
     DialogContent dc = new DialogContent();
 
 
