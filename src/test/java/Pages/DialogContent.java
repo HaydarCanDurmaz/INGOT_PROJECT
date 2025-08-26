@@ -45,13 +45,13 @@ public class DialogContent extends ParentPage {
     @FindBy(xpath = "//a[@id='52215'][1]")
     public WebElement startFreeDemo;
 
-    @FindBy(xpath = "(//li[@class='pointer']/div)[1]")
+    @FindBy(xpath = "(//*[@class='iconify iconify--mdi'])[1]")
     public WebElement TradeEssentialsClick;
 
-    @FindBy(xpath = "(//li[@class='pointer']/div)[3]")
+    @FindBy(xpath = "(//*[@class='iconify iconify--mdi'])[2]")
     public WebElement ResourceHub;
 
-    @FindBy(css = "(//li[@class='pointer']/div)[5]")
+    @FindBy(xpath = "(//*[@class='iconify iconify--mdi'])[3]")
     public WebElement ingotLeft;
 
     @FindBy(css = "")
